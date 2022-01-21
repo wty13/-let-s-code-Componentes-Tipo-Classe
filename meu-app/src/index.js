@@ -8,9 +8,11 @@ import App5 from './components/App5';
 import {Lista, Item} from './components/Lista';
 import Formulario from './components/Formulario';
 import reportWebVitals from './reportWebVitals';
+import Hello from './components/Hello';
 
 ReactDOM.render(
   <React.StrictMode>
+    <App></App>
     {/* <App2 title="Título">
       Conteúdo
     </App2>
@@ -30,7 +32,10 @@ ReactDOM.render(
         Texto2
       </Item>
     </Lista> */}
-    <Formulario/>
+    {/* <Formulario/> */}
+    {/* <Hello text="Olá">
+      <h1>Hello</h1>
+    </Hello> */}
    
   </React.StrictMode>,
   document.getElementById('root')
